@@ -87,6 +87,27 @@ article {
     height: 100%;
 }
 
+#cornerBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    padding: 1em 2em;
+    background-color: rgba(60, 62, 173, 0.411);
+    border: rgba(136, 130, 178, 0.411);
+    border-radius: 10px;
+    color: black;
+    font-size: 120%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+  }
+  #cornerBtn:hover {
+    background-color: black;
+    color: rgb(169, 161, 187);
+    border: 2px ridge goldenrod;
+  }
+
 footer {
     padding: 2em 0;
     display: flex;
